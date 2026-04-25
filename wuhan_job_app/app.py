@@ -25,7 +25,6 @@ agree = st.checkbox("我已完全了解并同意以上铁律，绝不废话。")
 
 if agree:
     st.success("规矩懂了就行。扫码进群，进群后直接发数字 1，等候派单。")
-    # 注意：这里的图片名字已经帮你改成了 wx.jpg
-    st.image("wx.jpg", caption="（群满自动更新，直接扫）")
+    st.image("https://s41.ax1x.com/2026/04/25/pefK76S.jpg", caption="（群满自动更新，直接扫）")
 else:
-   st.image("https://s41.ax1x.com/2026/04/25/pefK76S.jpg", caption="（群满自动更新，直接扫）")
+    st.warning("勾选同意后，方可获取加群通道。")
